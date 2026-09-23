@@ -51,34 +51,6 @@ The following screenshots showcase a selected set of the project's image process
 
 ![Arithmetic Operations](Görüntü%20işleme/images/Arithmetic_Operations.png)
 
-### Edge Detection
-
-![Edge Detection](Görüntü%20işleme/images/Edge_Detection.png)
-
-### Color Space Conversions
-
-![Color Space Conversions](Görüntü%20işleme/images/Color_Space_Conversions.png)
-
-### Image Rotation
-
-![Image Rotation](Görüntü%20işleme/images/Image_Rotation.png)
-
-### Grayscale Conversion
-
-![Grayscale Conversion](Görüntü%20işleme/images/Grayscale_Conversion.png)
-
-### Binary Conversion
-
-![Binary Conversion](Görüntü%20işleme/images/Binary_Conversion.png)
-
-### Image Cropping
-
-![Image Cropping](Görüntü%20işleme/images/Image_Cropping.png)
-
-### Contrast Enhancement
-
-![Contrast Enhancement](Görüntü%20işleme/images/Contrast_Enhancement.png)
-
 ### Multiple Operations
 
 This screen demonstrates applying multiple operations sequentially to the same image: rotating the image clockwise, converting it to grayscale, and then reducing its size.
