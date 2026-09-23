@@ -131,5 +131,10 @@ namespace Görüntü_işleme
             OpenScreen(new Screens.Morfolojik_İslemlerScreen());
 
         }
+
+        private void btnMultipleOperations_Click(object sender, EventArgs e)
+        {
+            OpenScreen(new Screens.MultipleOperationsScreen());
+        }
     }
 }

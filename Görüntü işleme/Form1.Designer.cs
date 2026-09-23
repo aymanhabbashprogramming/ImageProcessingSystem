@@ -31,9 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnKovolusyonİslemler = new Krypton.Toolkit.KryptonButton();
             this.kryptonButton2 = new Krypton.Toolkit.KryptonButton();
+            this.btnZoom_In_Out = new Krypton.Toolkit.KryptonButton();
             this.btnColor_Space = new Krypton.Toolkit.KryptonButton();
             this.btnTo_Gray = new Krypton.Toolkit.KryptonButton();
-            this.btnZoom_In_Out = new Krypton.Toolkit.KryptonButton();
             this.btnEsikİslemler = new Krypton.Toolkit.KryptonButton();
             this.btnFiltreUygulamasi = new Krypton.Toolkit.KryptonButton();
             this.btnRotate = new Krypton.Toolkit.KryptonButton();
@@ -44,12 +44,14 @@
             this.btnGurultuEklemeTemizleme = new Krypton.Toolkit.KryptonButton();
             this.btnBinary = new Krypton.Toolkit.KryptonButton();
             this.btnAritmetikİslemler = new Krypton.Toolkit.KryptonButton();
+            this.btnMultipleOperations = new Krypton.Toolkit.KryptonButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(75)))), ((int)(((byte)(199)))));
+            this.panel1.Controls.Add(this.btnMultipleOperations);
             this.panel1.Controls.Add(this.btnKovolusyonİslemler);
             this.panel1.Controls.Add(this.kryptonButton2);
             this.panel1.Controls.Add(this.btnZoom_In_Out);
@@ -95,6 +97,18 @@
             this.kryptonButton2.Values.Text = "Morfolojik İşlemler";
             this.kryptonButton2.Click += new System.EventHandler(this.kryptonButton2_Click);
             // 
+            // btnZoom_In_Out
+            // 
+            this.btnZoom_In_Out.Location = new System.Drawing.Point(12, 507);
+            this.btnZoom_In_Out.Name = "btnZoom_In_Out";
+            this.btnZoom_In_Out.Size = new System.Drawing.Size(348, 39);
+            this.btnZoom_In_Out.StateCommon.Border.Rounding = 15F;
+            this.btnZoom_In_Out.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnZoom_In_Out.TabIndex = 5;
+            this.btnZoom_In_Out.Values.DropDownArrowColor = System.Drawing.Color.Empty;
+            this.btnZoom_In_Out.Values.Text = "Görüntü Yaklaştırma/Uzaklaştırma";
+            this.btnZoom_In_Out.Click += new System.EventHandler(this.btnZoom_In_Out_Click);
+            // 
             // btnColor_Space
             // 
             this.btnColor_Space.Location = new System.Drawing.Point(12, 642);
@@ -118,18 +132,6 @@
             this.btnTo_Gray.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.btnTo_Gray.Values.Text = "Gri Dönüşüm";
             this.btnTo_Gray.Click += new System.EventHandler(this.btnTo_Gray_Click);
-            // 
-            // btnZoom_In_Out
-            // 
-            this.btnZoom_In_Out.Location = new System.Drawing.Point(12, 507);
-            this.btnZoom_In_Out.Name = "btnZoom_In_Out";
-            this.btnZoom_In_Out.Size = new System.Drawing.Size(348, 39);
-            this.btnZoom_In_Out.StateCommon.Border.Rounding = 15F;
-            this.btnZoom_In_Out.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZoom_In_Out.TabIndex = 5;
-            this.btnZoom_In_Out.Values.DropDownArrowColor = System.Drawing.Color.Empty;
-            this.btnZoom_In_Out.Values.Text = "Görüntü Yaklaştırma/Uzaklaştırma";
-            this.btnZoom_In_Out.Click += new System.EventHandler(this.btnZoom_In_Out_Click);
             // 
             // btnEsikİslemler
             // 
@@ -251,6 +253,18 @@
             this.btnAritmetikİslemler.Values.Text = "Aritmetik İşlemler";
             this.btnAritmetikİslemler.Click += new System.EventHandler(this.btnAritmetikİslemler_Click);
             // 
+            // btnMultipleOperations
+            // 
+            this.btnMultipleOperations.Location = new System.Drawing.Point(12, 687);
+            this.btnMultipleOperations.Name = "btnMultipleOperations";
+            this.btnMultipleOperations.Size = new System.Drawing.Size(348, 39);
+            this.btnMultipleOperations.StateCommon.Border.Rounding = 15F;
+            this.btnMultipleOperations.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultipleOperations.TabIndex = 17;
+            this.btnMultipleOperations.Values.DropDownArrowColor = System.Drawing.Color.Empty;
+            this.btnMultipleOperations.Values.Text = "Çoklu İşlemler";
+            this.btnMultipleOperations.Click += new System.EventHandler(this.btnMultipleOperations_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -285,6 +299,7 @@
         private Krypton.Toolkit.KryptonButton btnEsikİslemler;
         private Krypton.Toolkit.KryptonButton kryptonButton2;
         private Krypton.Toolkit.KryptonButton btnFiltreUygulamasi;
+        private Krypton.Toolkit.KryptonButton btnMultipleOperations;
     }
 }
 
