@@ -5,6 +5,7 @@
 ![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ## 1. Project Overview
 
@@ -36,53 +37,53 @@ The following screenshots showcase a selected set of the project's image process
 
 ### Morphological Operations
 
-![Morphological Operations](images/Morphological_Operations.png)
+![Morphological Operations](Görüntü%20işleme/images/Morphological_Operations.png)
 
 ### Histogram Operations
 
-![Histogram Operations](images/Histogram_Operations.png)
+![Histogram Operations](Görüntü%20işleme/images/Histogram_Operations.png)
 
 ### Noise Addition & Cleaning
 
-![Noise Addition & Cleaning](images/Noise_Addition_Cleaning.png)
+![Noise Addition & Cleaning](Görüntü%20işleme/images/Noise_Addition_Cleaning.png)
 
 ### Arithmetic Operations
 
-![Arithmetic Operations](images/Arithmetic_Operations.png)
+![Arithmetic Operations](Görüntü%20işleme/images/Arithmetic_Operations.png)
 
 ### Edge Detection
 
-![Edge Detection](images/Edge_Detection.png)
+![Edge Detection](Görüntü%20işleme/images/Edge_Detection.png)
 
 ### Color Space Conversions
 
-![Color Space Conversions](images/Color_Space_Conversions.png)
+![Color Space Conversions](Görüntü%20işleme/images/Color_Space_Conversions.png)
 
 ### Image Rotation
 
-![Image Rotation](images/Image_Rotation.png)
+![Image Rotation](Görüntü%20işleme/images/Image_Rotation.png)
 
 ### Grayscale Conversion
 
-![Grayscale Conversion](images/Grayscale_Conversion.png)
+![Grayscale Conversion](Görüntü%20işleme/images/Grayscale_Conversion.png)
 
 ### Binary Conversion
 
-![Binary Conversion](images/Binary_Conversion.png)
+![Binary Conversion](Görüntü%20işleme/images/Binary_Conversion.png)
 
 ### Image Cropping
 
-![Image Cropping](images/Image_Cropping.png)
+![Image Cropping](Görüntü%20işleme/images/Image_Cropping.png)
 
 ### Contrast Enhancement
 
-![Contrast Enhancement](images/Contrast_Enhancement.png)
+![Contrast Enhancement](Görüntü%20işleme/images/Contrast_Enhancement.png)
 
 ### Multiple Operations
 
 This screen demonstrates applying multiple operations sequentially to the same image: rotating the image clockwise, converting it to grayscale, and then reducing its size.
 
-![Multiple Operations](images/Multiple_Operations.png)
+![Multiple Operations](Görüntü%20işleme/images/Multiple_Operations.png)
 
 ---
 
@@ -171,4 +172,4 @@ The project is organized into two main folders:
 * Improve and expand the **Çoklu İşlemler** screen by adding new options and capabilities for controlling the sequence of image processing operations.
 * Expand the operations that can be used within **Çoklu İşlemler** so that more of the available image processing operations can be combined.
 * Add new features and options to improve the user experience and expand the image processing and editing capabilities.
-* Continue developing the project by adding new processing operations and improving existing functionality.
+  * Continue developing the project by adding new processing operations and improving existing functionality.
