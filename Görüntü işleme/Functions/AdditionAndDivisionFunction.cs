@@ -16,7 +16,6 @@ namespace Görüntü_işleme.Functions
             }
             return yeniBoyut;
         }
-
         public Bitmap GoruntuTopla(Bitmap birinciGoruntu, Bitmap ikinciGoruntu)
         {
            
@@ -50,7 +49,6 @@ namespace Görüntü_işleme.Functions
 
             return sonucGoruntu;
         }
-
         public Bitmap GoruntuBol(Bitmap birinciGoruntu, Bitmap ikinciGoruntu)
         {
             int genislik = Math.Min(birinciGoruntu.Width, ikinciGoruntu.Width);
